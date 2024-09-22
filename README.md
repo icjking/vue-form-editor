@@ -1,14 +1,8 @@
-# vue-form-craft
+# vue-form-editor
 
 基于 [vue](https://github.com/vuejs/vue) 和 [element-plus](https://github.com/ElemeFE/element) 实现的表单设计器 + 渲染器
 
 使用了最新的前端技术栈，可以让你免去vue项目中表单的烦恼。
-
-
-* [在线预览](https://xinnian999.github.io/vue-form-craft/form-design)
-* [官方文档](https://xinnian999.github.io/vue-form-craft/)
-* 作者：Elin
-* 联系方式：17803000829
 
 ![ui](./src/assets/ui.png)
 
@@ -45,11 +39,11 @@ vue@3.x
 ### 安装
 
 ```js
-npm i vue-form-craft
+npm i vue-form-editor
 //或
-yarn add vue-form-craft
+yarn add vue-form-editor
 //或
-pnpm i vue-form-craft
+pnpm i vue-form-editor
 ```
 
 ### 全局注册
@@ -57,10 +51,10 @@ pnpm i vue-form-craft
 ```js
 import { createApp } from 'vue'
 import App from './App.vue'
-import VueFormCraft from 'vue-form-craft'
+import VueFormEditor from 'vue-form-editor'
 const app = createApp(App)
 
-app.use(VueFormCraft)
+app.use(VueFormEditor)
 app.mount('#app')
 
 ```
